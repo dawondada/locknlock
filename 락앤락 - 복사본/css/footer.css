@@ -1,0 +1,60 @@
+/*  footer  */
+/*  footer > .addr  */
+div.footer_inner > div.addr{float: left;margin: 0 7% 7% 0; width: 310px;}
+div.addr > p:first-of-type > a{display: block; width: 135px;height: 21px;padding: 18px 0; background: url(../images/logo_b.png) no-repeat 0 18px; text-indent: -9999px;overflow: hidden;}
+div.addr > address{padding: 10px 0; font-size: 14px;color: #54565b; line-height: 1.5;}
+div.addr > p:last-of-type{padding-bottom: 20px;font-size: 14px;color: #54565b; line-height: 1.5;}
+
+div.addr > ul{padding: 10px 0;}
+div.addr > ul.footer_mall > li{display: inline-block;padding-right: 10px; border-right: 1px solid #b2b2b2;}
+div.addr > ul.footer_mall > li:last-of-type{padding-left: 10px; border-right: none;}
+div.addr > ul.footer_mall > li > a{display: block;font-size: 15px;color: #101820;}
+
+div.addr > ul.footer_sns > li{display: inline-block; padding-right: 20px;}
+div.addr > ul.footer_sns > li > a{display: block; font-size: 24px; color: #101820;}
+div.addr > ul.footer_sns > li > a > i{color: #101820;}
+div.addr > ul.footer_sns > li:hover > a > i{color: #54565b;}
+div.addr > ul.footer_sns > li:last-child > a{width: 21px;height: 21px; background: url(../images/icon_blog_b.png) no-repeat 0 90%;text-indent: -9999px;overflow: hidden;}
+div.addr > ul.footer_sns > li:last-child:hover > a{background: url(../images/icon_blog.png) no-repeat 0 90%;}
+
+/*  footer > .sitemap  */
+div.footer_inner > div.sitemap{float: left; width: 620px;}
+div.sitemap > ul{padding: 18px 0;}
+
+div.sitemap > ul:after{content: "";display: block;clear: both;}
+div.sitemap > ul > li{float: left;margin-right: 8%;}
+div.sitemap > ul > li > a{display: block;padding-bottom: 20px; font-size: 15px;font-weight: 600;}
+div.sitemap > ul > li > ul > li > a{display: block; font-size: 15px;color: #404148;line-height: 2;}
+div.sitemap > ul > li:last-of-type{margin-left: 0;}
+
+/*  footer > .btn_top */
+div.footer_inner > div.btn_top{float: right; width: 30px;height: 30px;margin-top: 18px;}
+div.btn_top > a{display: block;width: 30px;height: 30px; border: none;background: #101820 url(../images/btn_top_w.png) no-repeat 50% 50% ;text-indent: -9999px;overflow: hidden;
+                transition: background 0.3s ease-in-out;-o-transition: background 0.3s ease-in-out;-moz-transition: background 0.3s ease-in-out; -webkit-transition: background 0.3s ease-in-out;}
+div.btn_top:hover > a{background: #0071E3 url(../images/btn_top_w.png) no-repeat 50% 50%;}
+div.btn_top:active > a{background: #0071E3 url(../images/btn_top_w.png) no-repeat 50% 50%;}
+
+/*  footer > inner_bottom */
+div.footer_inner > div.inner_bottom{clear: both;}
+.bottom_menu{float: left;position: relative;left: 0; bottom: 40px;}
+.bottom_menu > ul > li{display: inline-block; position: relative; padding: 0 10px; font-size: 15px;}
+.bottom_menu > ul > li > a{display: block; font-size: 15px;color: #54565b; line-height: 21px;
+                           transition: color 0.3s ease-in-out;-o-transition:  color 0.3s ease-in-out;-moz-transition:  color 0.3s ease-in-out;-webkit-transition:  color 0.3s ease-in-out;}
+.bottom_menu > ul > li:hover > a{color: #101820;}
+.bottom_menu > ul > li > a:after{content: "";position: absolute;left: 0;top:5px; width: 1px;height: 15px;background: #b2b2b2;}
+.bottom_menu > ul > li:first-child{padding-left: 0;} 
+.bottom_menu > ul > li:first-child > a:after{padding-left: 0; background:none;}
+.bottom_menu > ul > li:nth-child(3) a{font-weight: bold; color: #101820;}
+
+.familysite{position: relative; float: right; width: 210px;}
+.familysite > ul > li > button{position: relative;right: 0;top: 0; width: 210px; border: none;padding: 8px 0; background:transparent;font-size: 14px;text-align: left;}
+.familysite > ul > li > button > i{position: absolute;right:0; transform: rotate(0deg);
+                                   transition: transform 0.3s ease-in-out ; -o-transition: transform 0.3s ease-in-out ; -moz-transition: transform 0.3s ease-in-out ;-webkit-transition: transform 0.3s ease-in-out ;}
+.familysite > ul > li > button:after{content: "";position: absolute;right: 0;bottom: 0; width: 210px;height: 1px;background: #545454;}
+.familysite > ul > li > ul{display: none; position: absolute;right: 0px;bottom:35px; width: 190px; padding: 10px; border: 1px solid #545454; background: #f7f7f7;}
+
+.familysite > ul > li > button:active > i{transform: rotate(180deg);}
+.familysite > ul > li:active > ul{display: block;} 
+
+/*  사이드 버튼  */
+.btn_mall{display: block;position: fixed;right: 15px;bottom: 15px;width: 110px;height: 110px;background: url(../images/homepage_banner3.png);background-size: 110px;text-indent: -9999px;overflow: hidden;}
